@@ -23,10 +23,10 @@ docker build -t devops:test .
 ### 2. Run the Container
 
 ```bash
-docker run -p 8000:8000 devops:test
+docker run -p 80:8000 devops:test
 ```
 
-The application will be available at `http://localhost:8000`
+The application will be available at `http://localhost:80`
 
 ## 📁 Project Structure
 
