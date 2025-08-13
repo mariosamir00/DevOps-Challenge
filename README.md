@@ -19,13 +19,6 @@ This project demonstrates a single-container approach where both Redis server an
 ```bash
 docker build -t task:final .
 ```
-
-### 2. Run the Container
-
-```bash
-docker run -it -p 80:8000 task:final
-```
-
 The application will be available at `http://localhost:80`
 
 ## 📁 Project Structure
