@@ -17,13 +17,13 @@ This project demonstrates a single-container approach where both Redis server an
 ### 1. Build the Docker Image
 
 ```bash
-docker build -t devops:test .
+docker build -t task:final .
 ```
 
 ### 2. Run the Container
 
 ```bash
-docker run -p 80:8000 devops:test
+docker run -it -p 80:8000 task:final
 ```
 
 The application will be available at `http://localhost:80`
