@@ -308,7 +308,6 @@ This approach ensures that both Redis and the Python application are running wit
 ```bash
 # Build and run
 docker build -t task:final .
-docker run -p 80:8000 task:final
 ```
 ![Docker Build Success](Images/build-image.png)
 
